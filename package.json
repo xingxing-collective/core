@@ -1,0 +1,23 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "packageManager": "pnpm@8.15.4",
+  "description": "Proxy hosts is a lightweight proxy server for the xboot api.",
+  "scripts": {
+    "dev": "PORT=3001 nitro dev",
+    "prepare": "nitro prepare",
+    "build": "nitro build",
+    "prisma:init": "prisma init",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:pull": "prisma db pull",
+    "prisma:generate": "prisma generate"
+  },
+  "devDependencies": {
+    "nitropack": "^2.9.6",
+    "ofetch": "^1.3.4",
+    "prisma": "^5.14.0",
+    "@prisma/client": "^5.14.0",
+    "typescript": "^5.4.5"
+  },
+  "license": "MIT"
+}
