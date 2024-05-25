@@ -5,5 +5,10 @@ export default defineNitroConfig({
     '/**': {
       cors: true
     }
+  },
+  imports: {
+    dirs: [
+      'composables'
+    ]
   }
 })
