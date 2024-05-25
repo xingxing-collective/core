@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "PORT=3001 nitro dev",
     "prepare": "nitro prepare",
-    "build": "nitro build",
+    "build": "prisma generate && nitro build",
+    "preview": "node .output/server/index.mjs",
     "prisma:init": "prisma init",
     "prisma:migrate": "prisma migrate dev",
     "prisma:pull": "prisma db pull",
