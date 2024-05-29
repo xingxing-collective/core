@@ -1,3 +1,3 @@
-export default eventHandler(() => {
+export default eventHandler((event) => {
   return 'Hello World'
 })
